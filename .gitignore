@@ -1,0 +1,36 @@
+# This is a basic .gitignore file for a Django project.
+# Add more patterns as needed.
+
+# Python bytecode files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# IDE-specific files
+.idea/
+*.iml
+*.DS_Store
+
+# Local configuration files
+local_settings.py
+
+# Test output
+**/test*.log
+**/coverage*
+
+# Media and static files (if not managed by Git)
+media/
+static/
+
+# Database files
+db.sqlite3
+
+# Django-specific files
+*.sqlite3
+*.db
+
+# Env File
+.env
